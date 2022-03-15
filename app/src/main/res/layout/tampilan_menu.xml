@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/ivMasjid"
+            android:onClick="clickMasjid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/masjid" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/ivGuru"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            app:srcCompat="@drawable/guru" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/ivRumah"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/rumah" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/ivPerpustakaan"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            app:srcCompat="@drawable/perpustakaan" />
+    </TableRow>
+</LinearLayout>
